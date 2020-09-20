@@ -1,0 +1,8 @@
+Resources:
+  ELB:
+    Type: 'AWS::ElasticLoadBalancing::LoadBalancer'
+    Properties: 
+       LoadBalancerName: SRELB
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 01c54b50-428a-47de-a00b-228f20cee831
